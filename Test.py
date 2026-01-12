@@ -46,7 +46,7 @@ class SampleTestCase(unittest.TestCase):
             capabilities['platformName'] = 'iOS'
             capabilities['autoDismissAlerts'] = True  # This helps to handle unexpected native pop-ups
             capabilities['releaseDevice'] = False
-            capabilities['generateReport'] = False  # Disable report creation, will help to reduce execution time
+            # capabilities['generateReport'] = False  # Disable report creation, will help to reduce execution time
             capabilities['bundleId'] = 'com.apple.Preferences'
         except Exception as e:
             print('SampleTestCase error occurred: %s' % e)

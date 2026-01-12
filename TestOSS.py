@@ -33,7 +33,7 @@ class SampleTestCase(unittest.TestCase):
             'testName': 'Webhook cleanup',
             'accessKey': config.get('seetest_authorization', 'access_key_cleanup'),
             'releaseDevice': False,
-            'appiumVersion': '2.19.0'
+            'appiumVersion': '3.0.1'
         })
         
         url = config.get('seetest_urls', 'cloud_url') + config.get('seetest_urls', 'wd_hub')

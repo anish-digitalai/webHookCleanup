@@ -44,6 +44,7 @@ class SampleTestCase(unittest.TestCase):
             capabilities['accessKey'] = '%s' % config.get('seetest_authorization', 'access_key_cleanup')
             capabilities['udid'] = '%s' % uid
             capabilities['platformName'] = 'iOS'
+            capabilities['appiumVersion'] = '2.19.0'
             capabilities['autoDismissAlerts'] = True  # This helps to handle unexpected native pop-ups
             capabilities['releaseDevice'] = False
             # capabilities['generateReport'] = False  # Disable report creation, will help to reduce execution time

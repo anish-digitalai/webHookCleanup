@@ -41,7 +41,7 @@ class SampleTestCase(unittest.TestCase):
         
         try:
             capabilities['testName'] = 'Webhook cleanup'
-            capabilities['accessKey'] = '%s' % config.get('seetest_authorization', 'access_key_admin')
+            capabilities['accessKey'] = '%s' % config.get('seetest_authorization', 'access_key_cleanup')
             capabilities['udid'] = '%s' % uid
             capabilities['platformName'] = 'iOS'
             capabilities['autoDismissAlerts'] = True  # This helps to handle unexpected native pop-ups
